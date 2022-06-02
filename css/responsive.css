@@ -1,0 +1,154 @@
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+.darkpart {
+    padding: 25px 10px;
+    border-radius: 20px 20px 30px 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.footer-area {
+    width: 100%;
+}
+
+
+.footer_left.active i {
+    color: #fff;
+}
+
+.header-area {
+    padding: 14px 20px;
+    padding-bottom: 21px;
+}
+
+.image_a1 {
+    position: absolute;
+    top: -35px;
+    height: 32px;
+    left: 14%;
+}
+
+.dnfooter {
+    width: 137px;
+    height: 6px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+}
+
+.therest-part {
+    display: flex;
+    width: 577px;
+    padding-bottom: 7px;
+}
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+
+
+.therest-part {
+    display: flex;
+    width: 668px;
+}
+
+.image_a1 {
+    position: absolute;
+    top: -34px;
+    height: 31px;
+    left: 26%;
+}
+
+.dnfooter {
+    width: 166px;
+    height: 6px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+}
+
+.top_header_left {
+    width: 14%;
+}
+
+.top-header-inner {
+    width: 66%;
+}
+
+}
+
+@media screen and (min-width: 385px) and (max-width: 390px) {
+.therest-part {
+    display: flex;
+    width: 633px;
+}
+
+.dnfooter {
+    width: 156px;
+    height: 6px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.image_a1 {
+    position: absolute;
+    top: -34px;
+    height: 31px;
+    left: 21%;
+}
+
+.top_header_left {
+    width: 15%;
+}
+
+.top-header-inner {
+    width: 65%;
+}
+
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+.therest-part {
+    display: flex;
+    width: 618px;
+}
+
+.image_a1 {
+    position: absolute;
+    top: -34px;
+    height: 30px;
+    left: 21%;
+}
+
+.top_header_left {
+    width: 15%;
+}
+.top-header-inner {
+    width: 65%;
+}
+
+}
+
+
+@media screen and (min-width: 359px) and (max-width: 360px) {
+.therest-part {
+    display: flex;
+    width: 605px;
+}
+}
+
+
+
+
+

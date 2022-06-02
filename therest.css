@@ -1,0 +1,148 @@
+/*
+========================
+Header area start
+========================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {  
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+    background: #171728;
+    color: #333333; 
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: orange;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: orange;
+}
+
+::-moz-selection {
+    color: white; 
+    background: orange;
+}
+
+
+/*--- therest-area start ---*/
+.toptherest-area {
+    padding: 0 0px;
+    padding-bottom: 3px;
+
+}
+.therest-area {
+    padding-bottom: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-bottom: 0px;
+    margin-top: 27px;
+    margin-left: 0px;
+}
+
+.therest-part {
+    display: flex;
+    width: 562px;
+}
+
+.therest-left {
+    display: flex;
+    background-color: #eaf0ff;
+    padding: 7px;
+    border-radius: 20px;
+    width: 260px;
+    align-items: center;
+    margin-right: 15px;
+    padding-left: 0;
+}
+
+.therest-left1 {
+    width: 27%;
+}
+
+.ttherest-left2 {
+    text-align: center;
+}
+
+.ttherest-left2 i {
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
+    background: #0cc3ca;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 48px;
+    text-align: center;
+}
+
+.ttherest-left2 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+.therest-left2 {
+   width: 65%;  
+}
+
+.therest-left2 p {
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 21px;
+}
+
+.therest-left3 {
+    width: 8%;
+}
+
+.therest-left3 i {
+    color: #111111;
+    font-size: 18px;
+    position: relative;
+    top: -13px;
+}
+
+
+.ttherest-left2_a1 {
+    background: #f9b25f;
+}
+
+.ttherest-left2_a1 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.therest-part {
+    display: flex;
+    width: 562px;
+    padding-bottom: 7px;
+}
+
+
